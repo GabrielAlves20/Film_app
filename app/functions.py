@@ -30,9 +30,9 @@ def salvar_recomendacoes(filmes):
 
         for filme in filmes:
 
-            arquivo.write(f"🎬 {filme.get('titulo')}\n")
-            arquivo.write(f"⭐ Nota: {filme.get('nota')}\n")
-            arquivo.write(f"📖 {filme.get('sinopse')}\n")
+            arquivo.write(f"{filme.get('titulo')}\n")
+            arquivo.write(f"Nota: {filme.get('nota')}\n")
+            arquivo.write(f"{filme.get('sinopse')}\n")
             arquivo.write("-" * 50 + "\n")
 
 
